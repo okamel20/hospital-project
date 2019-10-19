@@ -1,0 +1,246 @@
+﻿@media (max-width: 1349.98px) {
+	.mainSection .secHolder .topBlock .text p {
+		font-size: 35px;
+	}
+	.mainSection .secHolder .bottomBlock .blockItem {
+		padding: 30px;
+	}
+}
+/* Large devices (desktops, < 1200px) */
+@media (max-width: 1199.98px) {
+	.mainMenu > ul {
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 300px;
+		background-color: rgba(38, 96, 131, 0.9);
+		padding-top: 100px;
+		display: none;
+		z-index: 999;
+	}
+	.mainMenu > ul.active {
+		display: block;
+	}
+	.mainMenu ul .menuItem > a {
+		height: auto;
+		padding: 10px 15px;
+		flex-direction: row-reverse;
+		color: #fff;
+		justify-content: space-between;
+		border-right: 0;
+	}
+	.mainMenu ul .menuItem.active >  a {
+		border-bottom: 1px solid #fff; 
+	}
+	.mainMenu ul .menuItem.dropDown a > i {
+		bottom: auto;
+		top: 13px;
+		right: 50%;
+		transform: translateX(50%);
+	}
+	.mainMenu ul .menuItem.dropDown .dropDownMenu {
+		position: static;
+		box-shadow: none;
+	}
+	.mainMenu ul .menuItem.redItem > a {
+		justify-content: center;
+		padding: 15px;
+	}
+	.mainMenu ul .menuItem .itemIcon {
+		height: auto;
+		margin-bottom: 0;
+	}
+	.mainMenu ul .menuItem .itemIcon i {
+		font-size: 20px;
+	}
+	.mainSection .secHolder .topBlock {
+		height: 800px;
+	}
+	.mainSection .secHolder .topBlock img {
+		padding-top: 30px;
+	}
+	.mainSection .secHolder .bottomBlock .blockItem .itemText p {
+		padding: 0;
+	}
+	.mainSection .secHolder {
+		margin-bottom: 100px;
+	}
+	.mainSection .secHolder .bottomBlock {
+		bottom: -100px;
+	}
+	.contactHeader .contactText {
+		padding: 50px;
+		margin-right: -100px;
+	}
+	.pageHeading .pageHeadingText h1 {
+		font-size: 60px;
+	}
+	.docProfile .profileText {
+		padding: 20px 0;
+	}
+}
+/* Medium devices (tablets, < 992px) */
+@media (max-width: 991.98px) {
+	.mainSection .secHolder .topBlock {
+		height: 350px;
+	}
+	.mainSection .secHolder {
+		margin-bottom: 0;
+	}
+	.mainSection .secHolder .bottomBlock {
+		position: relative;
+		margin-top: -30px;
+		bottom: auto;
+	}
+	.mainSection .secHolder .bottomBlock .blockItem {
+		background-color: rgb(15, 88, 127);
+	}
+	.mainSection .secHolder .bottomBlock .blockItem:nth-last-of-type(2) {
+		background-color: rgba(153, 192, 210);
+	}
+	.copyRights,
+	.inlineLinks {
+		text-align: center;
+	}
+	.page .imgHolder {
+		max-width: 300px;
+		margin: auto;
+	}
+	.insurance .IMG,
+	.ourDoctors .doctorsText {
+		margin-bottom: 30px;
+	}
+	.contactHeader .IMG {
+		max-width: 300px;
+		padding-top: 276px;
+		margin: auto;
+		position: relative;
+		margin-bottom: 30px;
+		z-index: 9;
+	}
+	.contactHeader .contactText {
+		margin-right: 0;
+	}
+	.contactHeader h1 {
+		text-align: center;
+	}
+	.pageHeading {
+		padding-top: 40%;
+	}
+	.pageHeading .pageHeadingText h1 {
+		font-size: 50px;
+	}
+	.docProfile .profileHeader .docIMG {
+		margin-bottom: 30px;
+	}
+	.docProfile .profileHeader .docIMG .IMG {
+		padding-top: 100%;
+		overflow: hidden;
+	}
+	.docProfile .profileHeader .docIMG .IMG img {
+		min-height: 100%;
+		height: auto;
+	}
+	.docProfile h1,
+	.docProfile .docJob,
+	.docProfile .docContact {
+		text-align: center;
+	}
+	.docProfile .profileText {
+		padding: 60px 0;
+	}
+}
+/* Small devices (landscape phones, < 768px) */
+@media (max-width: 767.98px) {
+	.socialButtons {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.topBar .info {
+		text-align: center;
+		display: block;
+	}
+	.logo .logoHolder {
+		text-align: center!important;
+	}
+	.mainSection .secHolder .topBlock .text p {
+		font-size: 25px;
+	}
+	.mainSection .secHolder .topBlock img {
+		display: none;
+	}
+	.mainSection .secHolder .topBlock {
+		background: url(../img/hassanbackg-ar.png) left no-repeat;
+		background-size: auto 100%;
+		background-color: #d5d4d5;
+	}
+	.mainSection .secHolder .topBlock .text {
+		top: 30%;
+		animation-delay: 0s;
+	}
+	.pageHeading {
+		padding-top: 50%;
+	}
+	.pageHeading .pageHeadingText h1 {
+		font-size: 35px;
+	}
+	.docProfile .docContact .item {
+		display: block;
+		margin-bottom: 15px;
+		text-align: right;
+	}
+}
+/* Extra small devices (< 576px) */
+@media (max-width: 575.98px) {
+	.pageHeading .pageHeadingText h1 {
+		font-size: 30px;
+	}
+	.pageHeading .pageHeadingText p {
+		font-size: 20px
+	}
+	.bookingService h2 {
+		font-size: 30px;
+	}
+	.doctors .nav-tabs .nav-link {
+		margin-left: 15px;
+	}
+	.doctors .nav-tabs .nav-link h2 {
+		font-size: 16px;
+	}
+}
+@media (max-width: 349.98px) {
+	.mainMenu > ul {
+		width: 250px;
+	}
+}
+/* Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, > 768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, > 992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops > 1200px) */
+@media (min-width: 1200px) {
+	.mainMenuButton {
+		display: none;
+	}
+	.mainMenu ul .menuItem > a {
+		font-size: 13px;
+	}
+}
+@media (min-width: 992px) {
+	.offset-lg-4 {
+		margin-left: 0;
+		margin-right: 33.333333%;
+	}
+}

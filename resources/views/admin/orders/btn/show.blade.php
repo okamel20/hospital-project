@@ -1,0 +1,1 @@
+<a href="{{ adminUrl('orders/'.$id) }}" class="btn btn-link"> عرض الرسالة</a>

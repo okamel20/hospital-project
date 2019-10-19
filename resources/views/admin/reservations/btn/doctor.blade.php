@@ -1,0 +1,1 @@
+{{ \App\Doctor::find($doctor_id)['name_ar'] }}

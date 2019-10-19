@@ -1,0 +1,1 @@
+{{ \App\Section::find($section_id)['name_'.lang()] }}

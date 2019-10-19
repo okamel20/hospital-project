@@ -1,0 +1,1 @@
+<a href="{{ adminUrl('reservations/'.$id) }}" class="btn btn-link"> عرض الرسالة</a>

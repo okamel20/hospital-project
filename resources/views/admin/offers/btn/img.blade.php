@@ -1,0 +1,1 @@
+<img src="{{ Storage::url($img) }}" width="50px" height="50px" class="img-responsive">
